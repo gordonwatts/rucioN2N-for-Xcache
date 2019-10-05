@@ -1,0 +1,1 @@
+export X509_USER_PROXY=/var/spool/xrootd/x509up

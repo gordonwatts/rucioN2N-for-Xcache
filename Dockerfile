@@ -31,6 +31,7 @@ RUN chown -R xrootd:xrootd /data
 WORKDIR /var/spool/xrootd
 COPY runme.sh .
 RUN chown -R xrootd:xrootd runme.sh
+RUN chmod a+x runme.sh
 COPY bashrc .bashrc
 
 # Where to place the grid cert so everyone that runs in here can find it.

@@ -21,6 +21,7 @@
         "localfile",
         "localroot",
         "namelib",
+        "noxattrs",
         "osslib",
         "pidpath",
         "prefetch",
